@@ -1,0 +1,10 @@
+CREATE TABLE candidatos_test (
+  CC_id INT AUTO_INCREMENT PRIMARY KEY,
+  CC_cpf VARCHAR(11) UNIQUE NOT NULL,
+  CC_email VARCHAR(45) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+essa tbale ai ainda ta no meu bd em casa
+
+Oq eu testei da ni: vaga e requisitos, o ultimo nem roda no terminal, ja a vaga ele reconhece mas nao
+consegui testar mais pq nao tenho o corpo pra colocar no postman
